@@ -18,7 +18,7 @@ from aiogram.types import(
 )
 
 # Token
-TOKEN = "6633547343:AAFrCIottGe-PWqYvEL0CXzTiUJC6BqG3Tc"
+TOKEN = ""
 
 # user
 class User(StatesGroup):
@@ -37,9 +37,9 @@ class Form(StatesGroup):
 
 form_router = Router()
 
-REDIS_CLOUD_HOST = 'redis-11027.c281.us-east-1-2.ec2.cloud.redislabs.com'
-REDIS_CLOUD_PORT = 11027  # Replace with your Redis Cloud port
-REDIS_CLOUD_PASSWORD = 'sHdMWvmdtQeVX83rDrWCJOdWg8P6biot'
+REDIS_CLOUD_HOST = ''
+REDIS_CLOUD_PORT = 0 # Replace with your Redis Cloud port
+REDIS_CLOUD_PASSWORD = ''
 
 redis_conn = redis.StrictRedis(
     host=REDIS_CLOUD_HOST,
